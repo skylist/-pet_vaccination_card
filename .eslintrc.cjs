@@ -13,7 +13,15 @@ module.exports = {
   rules: {
     "react-refresh/only-export-components": [
       "warn",
-      { allowConstantExport: true },
-    ],
+      { allowConstantExport: true }
+    ]
   },
+  settings: {
+    "import/resolver": {
+      node: {
+        paths: ["src"],
+        extensions: [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  }
 };
