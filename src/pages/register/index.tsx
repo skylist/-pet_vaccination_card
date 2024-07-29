@@ -1,6 +1,6 @@
 import React, { FormEvent, useRef } from "react";
 import "./styles.css";
-import { useRegisterUser } from "../../services/user/index.tsx";
+import { useRegisterUser } from "../../services/user";
 import { Link, useNavigate } from "react-router-dom";
 import { AppNotification } from "../../components/notification";
 
